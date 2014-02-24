@@ -1,0 +1,10 @@
+#content-wrapper {
+    margin-top: 71px;
+}
+
+/* Sized for 2/3 of 1680 or 1/2 of 1920 */
+@media (min-width: 950px){
+    .container {
+        width: 940px;
+    }
+}

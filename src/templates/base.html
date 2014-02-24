@@ -1,11 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Funnul</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Funnul Control</title>
+
+  <link href="/static/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/static/main.css" rel="stylesheet">
 </head>
 <body>
-<h1>Funnul Management App</h1>
-    {% block content %}
-    {% endblock %}
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Funnul Control</a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <form class="navbar-form navbar-right" role="form">
+        <div class="form-group">
+          <input type="text" placeholder="Username" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="password" placeholder="Password" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-success">Sign in</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div id="content-wrapper">
+
+  <div class="container">
+    <div class="row">
+      <!-- col-sm allows us to have the menu and content side-by-side on 50% of 1920x1080 -->
+      <div class="col-sm-3">
+        menu
+        {% block sidemenu %}
+        {% endblock %}
+      </div>
+      <div class="col-sm-9">
+        content
+        {% block content %}
+        {% endblock %}
+      </div>
+    </div>
+
+    <hr>
+    <footer>
+      <p>Email person@example.com for support</p>
+    </footer>
+  </div>
+</div>
+
+<!-- /container -->
+
+{#<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>#}
+{#<script src="js/bootstrap.min.js"></script>#}
 </body>
 </html>
