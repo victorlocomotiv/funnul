@@ -1,0 +1,60 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="1152" measuredH="517" mockupW="863" mockupH="486">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::Component" x="289" y="31" w="863" h="486" measuredW="863" measuredH="486" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/layout.bmml</src>
+      </controlProperties>
+    </control>
+    <control controlID="24" controlTypeID="__group__" x="579" y="188" w="378" h="189" measuredW="378" measuredH="189" zOrder="1" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::List" x="0" y="63" w="-1" h="-1" measuredW="100" measuredH="126" zOrder="0" locked="false" isInGroup="24">
+          <controlProperties>
+            <text>Backend%201%0ABackend%202%0ABackend%203</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="__group__" x="0" y="0" w="367" h="27" measuredW="367" measuredH="27" zOrder="1" locked="false" isInGroup="24">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::SubTitle" x="0" y="0" w="-1" h="-1" measuredW="67" measuredH="27" zOrder="0" locked="false" isInGroup="1">
+              <controlProperties>
+                <text>Green</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::SubTitle" x="320" y="0" w="-1" h="-1" measuredW="47" measuredH="27" zOrder="1" locked="false" isInGroup="1">
+              <controlProperties>
+                <text>Blue</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::ProgressBar" x="91" y="3" w="214" h="20" measuredW="100" measuredH="20" zOrder="2" locked="false" isInGroup="1">
+              <controlProperties>
+                <indeterminate>false</indeterminate>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::List" x="278" y="63" w="-1" h="-1" measuredW="100" measuredH="126" zOrder="2" locked="false" isInGroup="24">
+          <controlProperties>
+            <color>16777215</color>
+            <text>Backend%204%0ABackend%205%0ABackend%206</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::SubTitle" x="688" y="145" w="-1" h="-1" measuredW="161" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Traffic%20Routing</text>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::VerticalTabBar" x="418" y="145" w="105" h="279" measuredW="200" measuredH="178" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <selectedIndex>1</selectedIndex>
+        <text>App%2C%20DNS%2C%20SSL%0ALoad%20Balancer%0ARewrite%20Rules%0AHeaders</text>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::BreadCrumbs" x="418" y="102" w="-1" h="-1" measuredW="152" measuredH="24" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Funnul%20%3E%20Application%201</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

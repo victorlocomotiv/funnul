@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  <h1>Applications</h1>
+
+
+  <form class="form-inline col-xs-4 pull-right" role="form">
+    <div class="form-group has-feedback">
+      <label class="control-label" for="app-filter">Filter</label>
+      <input type="text" class="form-control" id="app-filter">
+      <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+    </div>
+  </form>
+
+  <ul id="application-list">
+    <li>app1</li>
+    <li>app2</li>
+    <li>app3</li>
+    <li>app4</li>
+    <li>app5</li>
+    <li>app6</li>
+  </ul>
+
+{% endblock %}
