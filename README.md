@@ -39,4 +39,4 @@ Additional details will be added / clarified as the implementation develops.
 
 ## Implementation Details
 
-The API and configuration app are written in Flask. The service tier *may* use etcd and confd to manage nginx. Chef deploy scripts will be included.
+The API and configuration app are written in Flask. The service tier *may* use etcd and confd to manage nginx. Deploy scripts will be included.
